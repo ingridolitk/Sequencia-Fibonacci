@@ -1,5 +1,4 @@
-Sequência de Fibonacci
-
+<h1 align="center"> Sequência de Fibonacci </h1>
 
 
 ![image](https://user-images.githubusercontent.com/78871436/119277916-ac2f5a00-bbf8-11eb-87bb-612f90b07f72.png)
@@ -11,7 +10,7 @@ Sequência de Fibonacci
 App para calcular a sequência de fibonacci definida pelo usuário.
 O usuário digita até onde quer que a sequência é calculada. O resultado aparece ao clicar no botão resultado.
 
-**O que é a sequência de Fibonacci?**
+<h1 align="center"> O que é a sequência de Fibonacci? </h1>
 
 "A Sequência de Fibonacci é uma sequência numérica infinita que foi elaborada pelo matemático italiano Leonardo Pisa, também conhecido como Leonardo Bigollo ou Leonardo Fibonacci. Começando pelo número 1, a sequência é formada pela soma de cada numeral com o número que o antecede. Ou seja, 1 + 1 = 2, 2 + 1 = 3, 3 + 2 = 5, e assim por diante.
 
