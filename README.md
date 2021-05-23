@@ -1,7 +1,11 @@
 Sequência de Fibonacci
-Imagens
+
+
+
 ![image](https://user-images.githubusercontent.com/78871436/119277916-ac2f5a00-bbf8-11eb-87bb-612f90b07f72.png)
+
 ![image](https://user-images.githubusercontent.com/78871436/119277219-be0efe00-bbf4-11eb-8c41-c1a8ce9e1e07.png)
+
 ![image](https://user-images.githubusercontent.com/78871436/119277997-0e885a80-bbf9-11eb-9185-8ebf2da16811.png)
  
 App para calcular a sequência de fibonacci definida pelo usuário.
