@@ -12,19 +12,18 @@ import kotlin.io.print as print1
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTitle("Sequência de Fibonacci")
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var sequencia = findViewById<EditText>(R.id.seqFibonac)
+        val sequencia = findViewById<EditText>(R.id.seqFibonac)
         val btn = findViewById<Button>(R.id.btnFib)
-        var resultado = findViewById<TextView>(R.id.resultado)
-        setTitle("FIBONACCI")
+        val resultado = findViewById<TextView>(R.id.resultado)
         btn.setOnClickListener {
             val fibonacciSeq = mutableListOf<Int>()
             fibonacciSeq.clear()
             var i = 0
             var t1 = 0
             var t2 = 1
-            // var rec = 0
             var recSeq = sequencia?.text.toString()
 
             if (recSeq.isEmpty()) {

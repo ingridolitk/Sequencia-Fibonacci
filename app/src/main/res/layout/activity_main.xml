@@ -4,45 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Azulbb"
     tools:context=".MainActivity"
     tools:ignore="ExtraText">
+
     <EditText
         android:id="@+id/seqFibonac"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="329dp"
+        android:layout_height="81dp"
         android:layout_marginTop="228dp"
+        android:breakStrategy="high_quality"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Digite a sequência de Fibonacci"
+        android:inputType="textPersonName"
+        android:scrollbarTrackVertical="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/btnFib"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.584" />
 
     <Button
         android:id="@+id/btnFib"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="264dp"
-        android:text="Button"
+        android:layout_width="326dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTintMode="src_over"
+        android:bottomLeftRadius="10dp"
+        android:fontFamily="Medium"
+        android:text="Resultado"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:fontFamily="Medium"
-        android:textSize="14dp"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/resultado"
         android:layout_width="377dp"
         android:layout_height="55dp"
-        android:layout_marginBottom="132dp"
-        android:hint="Resultado"
+        android:layout_marginBottom="100dp"
+        android:textSize="20dp"
         android:visibility="gone"
+        android:fontFamily="sans-serif-black"
+        android:text="Resultado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/purple_200"/>
+        app:layout_constraintTop_toBottomOf="@+id/btnFib"
+        app:layout_constraintVertical_bias="0.955" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="406dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fibonacci_2" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
