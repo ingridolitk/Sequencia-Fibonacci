@@ -1,11 +1,12 @@
 <h1 align="center"> Sequência de Fibonacci </h1>
 
 
-![image](https://user-images.githubusercontent.com/78871436/119277916-ac2f5a00-bbf8-11eb-87bb-612f90b07f72.png)
+![image](https://user-images.githubusercontent.com/78871436/119280974-1ef50100-bc0a-11eb-8f46-d9d53cebb776.png)
 
-![image](https://user-images.githubusercontent.com/78871436/119277219-be0efe00-bbf4-11eb-8c41-c1a8ce9e1e07.png)
+![image](https://user-images.githubusercontent.com/78871436/119280992-32a06780-bc0a-11eb-95ae-ed1145799fc4.png)
 
-![image](https://user-images.githubusercontent.com/78871436/119277997-0e885a80-bbf9-11eb-9185-8ebf2da16811.png)
+![image](https://user-images.githubusercontent.com/78871436/119280932-f4a34380-bc09-11eb-9a12-f3d4d9337e30.png)
+
  
 App para calcular a sequência de fibonacci definida pelo usuário.
 O usuário digita até onde quer que a sequência é calculada. O resultado aparece ao clicar no botão resultado.
