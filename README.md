@@ -1,5 +1,6 @@
 <h1 align="center"> Sequência de Fibonacci </h1>
 
+![image](https://user-images.githubusercontent.com/78871436/119388797-27e4e180-bca1-11eb-8706-1370f4bd0062.png)
 
 ![image](https://user-images.githubusercontent.com/78871436/119280974-1ef50100-bc0a-11eb-8f46-d9d53cebb776.png)
 
